@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# custom
+*deprecated*
+*temp*
+*binning*
+*tmp*
+*lock*
+*scratch*
+*bin*
+*dev*
+*done
