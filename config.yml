@@ -1,0 +1,43 @@
+# Project(s) configuration file
+# -----------------------------
+# author: Dr Blaise Delaney, LNS, MIT
+# email: blaised at mit.edu
+# MIT academic year: 2022-2023
+
+
+# Amir 
+project_a:
+
+    # general spec 
+    name: "Project A"
+    student: "Amir White"
+    supervisor: "Boosting sensitivity in the Bc->D0(->K3Pi)(*)MuNu channel via COWs and machine learning"
+    description: "Adoption of COWs to implement the fake-charm removal; exploitation of the XGBoost classifier to fight lower-mass beauty backrounds."
+    keywords: ["machine learning ", "statistics", "sensitivity"]
+    requirements: "./requirements.yml"
+    status: "active"
+
+    eos_path: "<TBD>"
+
+
+# Kevin
+project_a:
+
+    # general spec 
+    name: "Project B"
+    student: "Kevin Kurashima"
+    supervisor: "Implementation of a standardise modelling of h->MuNu decays in flight at LHCb"
+    description: "Fitting-intensive understanding of the momentum smearing due to kink-track decay topologies; extraction of a smearing weight to account for this effect."
+    keywords: ["mis-ID", "decays in flight", "statistics"]
+    requirements: "./requirements.yml"
+    status: "active"
+
+    eos_path: "<TBD>" 
+
+
+# misc
+misc:
+  eos_path_b2jsik_mc16_mu: "/eos/lhcb/wg/semileptonic/Bs2DsX/TriggerEff/JpsiK_MC16_Up.root"
+  eos_path_b2jsik_mc16_md: "/eos/lhcb/wg/semileptonic/Bs2DsX/TriggerEff/JpsiK_MC16_Down.root"
+  eos_path_b2jsik_data16_mu: "/eos/lhcb/wg/semileptonic/Bs2DsX/TriggerEff/JpsiK_2016_Up.root" 
+  eos_path_b2jsik_data16_md: "/eos/lhcb/wg/semileptonic/Bs2DsX/TriggerEff/JpsiK_2016_Down.root" 
