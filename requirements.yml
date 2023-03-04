@@ -12,7 +12,6 @@ dependencies:
   - boost-histogram
   - awkward
   - matplotlib
-  - xrootd=5.5.1 
   - numpy
   - scipy
   - pandas
@@ -20,6 +19,7 @@ dependencies:
   - pip
   - jupyter
   - pip:
+    - xrootd=5.5.1 
     - SciencePlots
     - sweights
     - pyyaml
