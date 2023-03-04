@@ -2,6 +2,7 @@ name: core_env
 channels:
   - conda-forge
   - defaults
+  - bioconda
 dependencies:
   - python=3.10
   - mamba
@@ -10,10 +11,11 @@ dependencies:
   - boost-histogram
   - awkward
   - matplotlib
+  - xrootd=5.5.1 
   - numpy
   - scipy
   - pandas
-  - xrootd
+  - py-xgboost
   - pip
   - pip:
     - SciencePlots
